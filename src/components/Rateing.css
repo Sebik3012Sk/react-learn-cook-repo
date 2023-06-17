@@ -1,0 +1,51 @@
+.rates-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 680px;
+    background: linear-gradient(rgb(61, 51, 51),rgb(114, 96, 96));
+}
+
+.header-rateing-text {
+    color: #ffff;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-bottom: 1px solid #ffff;
+    padding: 10px;
+}
+
+.rate-div {
+    display: flex;
+    align-items: center;
+}
+
+.account-image {
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+}
+
+.account-name {
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.rateing-1 , .rateing-2 {
+    background: rgb(105, 102, 102);
+    margin: 10px;
+    padding: 5px;
+}
+
+.rateing-text {
+    color: #ffff;
+    font-size: 17px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}

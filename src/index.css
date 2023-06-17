@@ -1,0 +1,23 @@
+#div-header {
+    background: linear-gradient(rgb(136, 52, 52),rgb(141, 65, 51));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+}
+
+@media (max-width : 500px) {
+
+    nav {
+        height: 275px;
+    }
+
+    nav ul .item-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        padding: 5px;
+        font-size: 14px;
+    }
+}
