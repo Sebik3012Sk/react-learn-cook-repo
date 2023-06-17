@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 1200px;
     background: linear-gradient(rgb(61, 51, 51),rgb(114, 96, 96));
 }
 
@@ -15,7 +15,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     border-bottom: 1px solid #ffff;
-    padding: 2px;
+    padding: 10px;
 }
 
 .rate-div {
@@ -37,11 +37,10 @@
     margin-left: 10px;
 }
 
-.rateing-1 , .rateing-2 {
+.rateing-1 , .rateing-2 , .rateing-3 {
     background: rgb(105, 102, 102);
     margin: 10px;
     padding: 5px;
-    height: 250px;
 }
 
 .rateing-text {
@@ -51,14 +50,3 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.more-rating-show {
-    color: #ffff;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-weight: 300;
-    text-decoration: none;
-    border-bottom: 1px solid #ffff;
-    margin: 10px;
-    padding: 5px;
-}

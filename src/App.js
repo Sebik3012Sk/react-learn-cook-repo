@@ -4,6 +4,7 @@ import MainFood from "./pages/MainFood/MainFood";
 import Deserts from "./pages/Deserts/Deserts";
 import AllRecipes from "./pages/All Recipes/AllRecipes";
 import Error from "./pages/Error/Error";
+import MoreRateing from "./components/MoreRateing";
 
 const App = () => {
 
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/MainFood" element={ <MainFood /> }/>
         <Route path="/Deserts" element={ <Deserts /> }/>
         <Route path="/all-recipes" element={ <AllRecipes /> } />
+        <Route path="/more-rateing" element={ <MoreRateing /> } />
         <Route path="*" element={ <Error /> } />
       </Routes>
     </BrowserRouter>

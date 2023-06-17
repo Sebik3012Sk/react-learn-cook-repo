@@ -1,9 +1,9 @@
-import "./Rateing.css";
+import "./MoreRateing.css";
 
 import data_images from "../data_images";
-import { Link } from "react-router-dom";
 
-const Rateing = () => {
+
+const MoreRateing = () => {
   return (
     <div className="rates-div">
         <h2 className="header-rateing-text">Rateing From Our Clients</h2>
@@ -32,10 +32,22 @@ const Rateing = () => {
 
         </div>
 
-        <Link className="more-rating-show" to="/more-rateing">More Rateing</Link>
+
+        <div className="rateing-3">
+            
+            <div className="rate-div">
+                <img className="account-image" src={data_images[8].image} alt="" />
+                <p className="account-name">{data_images[8].name}</p>
+            </div>
+
+            <p className="rateing-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis illum placeat velit ipsam eaque sequi autem esse eius ex quibusdam maxime expedita molestiae laborum itaque eveniet adipisci explicabo, labore eos. <br />
+            Tenetur quod praesentium animi architecto error aliquam totam sapiente obcaecati magni iste placeat minus, veniam ducimus fugit, itaque culpa consequuntur exercitationem. Veritatis culpa consequuntur aperiam expedita illum, tenetur saepe hic?</p>
+
+        </div>
+        
 
     </div>
   )
 }
 
-export default Rateing
+export default MoreRateing;
