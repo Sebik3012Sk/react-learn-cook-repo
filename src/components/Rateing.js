@@ -16,7 +16,7 @@ const Rateing = () => {
             </div>
 
             <p className="rateing-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis ad molestias modi magnam tempora omnis fugiat rerum at, vitae earum aliquid eos perspiciatis aliquam sapiente culpa dicta fugit vero minima! <br />
-            Perferendis cum ipsa veritatis sed itaque dolore, praesentium dolores maxime delectus necessitatibus magni enim quae suscipit, doloribus dicta unde. Obcaecati, porro. Corporis hic eveniet minus iusto officia libero aperiam eaque!</p>
+            Perferendis !</p>
         </div>
 
 
@@ -28,7 +28,7 @@ const Rateing = () => {
             </div>
 
             <p className="rateing-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor sequi architecto, eius quaerat ut tenetur nesciunt ratione modi! Nostrum rem eligendi alias magni velit aut enim fuga repellendus cum doloremque. <br />
-            Quia fuga porro autem expedita beatae veniam. Porro nesciunt tempore nam ipsam dicta itaque beatae commodi deserunt nisi! Qui a nostrum voluptate ea culpa obcaecati eos animi, necessitatibus cum tempore!</p>
+            Quia fuga porro autem expedita beatae veniam. Porro nesciunt tempore nam ipsam dicta </p>
 
         </div>
 
