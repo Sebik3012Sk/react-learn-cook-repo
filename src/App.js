@@ -5,6 +5,7 @@ import Deserts from "./pages/Deserts/Deserts";
 import AllRecipes from "./pages/All Recipes/AllRecipes";
 import Error from "./pages/Error/Error";
 import MoreRateing from "./components/MoreRateing";
+import SuccesFullOrder from "./pages/SuccesFullOrder/SuccesFullOrder";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/Deserts" element={ <Deserts /> }/>
         <Route path="/all-recipes" element={ <AllRecipes /> } />
         <Route path="/more-rateing" element={ <MoreRateing /> } />
+        <Route path="/succes-full-order" element={ <SuccesFullOrder /> } />
         <Route path="*" element={ <Error /> } />
       </Routes>
     </BrowserRouter>

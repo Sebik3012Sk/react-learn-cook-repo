@@ -23,7 +23,6 @@ const Home = () => {
             </ul>
 
             
-
         </nav>
 
         <ButtonMenu text="Fotogallery" />

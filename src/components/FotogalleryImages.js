@@ -8,4 +8,4 @@ const FotogalleryImages = (props) => {
   )
 }
 
-export default FotogalleryImages
+export default FotogalleryImages;
