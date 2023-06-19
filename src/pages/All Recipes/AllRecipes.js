@@ -2,6 +2,7 @@ import "./AllRecipes.css";
 import data_images from "../../data_images";
 import FotogalleryImages from "../../components/FotogalleryImages";
 import FotogalleryButton from "../../components/FotogalleryButton";
+import SearchInput from "../../components/SearchInput";
 
 const AllRecipes = () => {
 
@@ -12,6 +13,7 @@ const AllRecipes = () => {
   return (
     <div>
         <h1 className="recipe-header-text">All Recipes</h1>
+        <SearchInput />
 
         <FotogalleryImages Source={data_images[0].image} width={width_image} height={height_image} />
         <FotogalleryButton />
