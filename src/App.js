@@ -6,6 +6,7 @@ import AllRecipes from "./pages/All Recipes/AllRecipes";
 import Error from "./pages/Error/Error";
 import MoreRateing from "./components/MoreRateing";
 import SuccesFullOrder from "./pages/SuccesFullOrder/SuccesFullOrder";
+import SearchOutput from "./components/SearchOutput";
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/all-recipes" element={ <AllRecipes /> } />
         <Route path="/more-rateing" element={ <MoreRateing /> } />
         <Route path="/succes-full-order" element={ <SuccesFullOrder /> } />
+        <Route path="/search-output" element={ <SearchOutput /> }/>
         <Route path="*" element={ <Error /> } />
       </Routes>
     </BrowserRouter>

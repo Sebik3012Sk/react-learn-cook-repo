@@ -15,22 +15,22 @@ const AllRecipes = () => {
         <h1 className="recipe-header-text">All Recipes</h1>
         <SearchInput />
 
-        <FotogalleryImages Source={data_images[0].image} width={width_image} height={height_image} />
+        <FotogalleryImages Source={data_images[0].image} name={data_images[0].name} width={width_image} height={height_image} />
         <FotogalleryButton />
 
-        <FotogalleryImages Source={data_images[1].image} width={width_image} height={height_image} />
+        <FotogalleryImages Source={data_images[1].image} name={data_images[1].name} width={width_image} height={height_image} />
         <FotogalleryButton />
 
-        <FotogalleryImages Source={data_images[2].image} width={width_image} height={height_image} />
+        <FotogalleryImages Source={data_images[2].image} name={data_images[2].name} width={width_image} height={height_image} />
         <FotogalleryButton />
 
-        <FotogalleryImages Source={data_images[3].image} width={width_image} height={height_image} />
+        <FotogalleryImages Source={data_images[3].image} name={data_images[3].name} width={width_image} height={height_image} />
         <FotogalleryButton />
 
-        <FotogalleryImages Source={data_images[4].image} width={width_image} height={height_image} />
+        <FotogalleryImages Source={data_images[4].image} name={data_images[4].name} width={width_image} height={height_image} />
         <FotogalleryButton />
 
-        <FotogalleryImages Source={data_images[5].image} width={width_image} height={height_image} />
+        <FotogalleryImages Source={data_images[5].image} name={data_images[5].name} width={width_image} height={height_image} />
         <FotogalleryButton />
     </div>
   )

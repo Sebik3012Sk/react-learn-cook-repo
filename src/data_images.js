@@ -12,31 +12,37 @@ import account3 from "./images/account3.jpg";
 
 const data_images = [
     {
+        name : "Hamburger",
         image : image1,
         id : 1
     },
 
     {
+        name : "Fish and Chips",
         image : image2,
         id : 2
     },
 
     {
+        name : "Beans",
         image : image3,
         id : 3
     },
 
     {
+        name : "Salad",
         image : image4,
         id : 4
     },
 
     {
+        name : "Canapes",
         image : image5,
         id : 5
     },
 
     {
+        name : "Sushi",
         image : image6,
         id : 6
     },
