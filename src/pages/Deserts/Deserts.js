@@ -3,8 +3,8 @@ import "./Deserts.css";
 
 const Deserts = () => {
   return (
-    <div>
-        <h1>Deserts</h1>
+    <div className="deserts-div">
+        <h1 className="deserts-text">Deserts</h1>
 
         <BackToHome />
     </div>

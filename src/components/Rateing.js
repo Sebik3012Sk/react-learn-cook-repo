@@ -38,4 +38,4 @@ const Rateing = () => {
   )
 }
 
-export default Rateing
+export default Rateing;

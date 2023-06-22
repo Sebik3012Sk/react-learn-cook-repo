@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/more-rateing" element={ <MoreRateing /> } />
         <Route path="/succes-full-order" element={ <SuccesFullOrder /> } />
         <Route path="/search-output" element={ <SearchOutput /> }/>
+        <Route path="/food-not-found" />
         <Route path="*" element={ <Error /> } />
       </Routes>
     </BrowserRouter>

@@ -1,11 +1,8 @@
 footer {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    justify-items: center;
-    height: 75px;
+    height: 88px;
     width: 90%;
     margin: 10px;
     background: linear-gradient(rgb(223, 47, 47),rgb(223, 48, 48));
@@ -14,8 +11,40 @@ footer {
 
 footer p {
     color: #ffff;
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .button-facebook {
+    margin-bottom: 15px;
+    background: rgb(104, 140, 173);
+    outline: none;
+    border: none;
+    margin: 10px;
+}
+
+.icon-facebook {
+    color: #ffff;
+    width: 25px;
+    height: 25px;
+}
+
+footer .button-instagram {
+    background: linear-gradient(rgb(231, 52, 82),rgb(214, 54, 81));
+    outline: none;
+    border: none;
+}
+
+.icon-instagram {
+    color: #ffff;
+    width: 25px;
+    height: 25px;
+}
+
+.button-tiktok {
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
 }

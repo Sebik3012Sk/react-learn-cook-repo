@@ -3,8 +3,8 @@ import "./MainFood.css";
 
 const MainFood = () => {
   return (
-    <div>
-        <h1>Main Food</h1>
+    <div className="mainfood-div">
+        <h1 className="mainfood-text">Main Food</h1>
 
         <BackToHome />
     </div>

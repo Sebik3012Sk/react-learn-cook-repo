@@ -1,18 +1,16 @@
-import { Link } from "react-router-dom"
 import "./Home.css";
+import { Link } from "react-router-dom"
 
 import ButtonMenu from "../../components/ButtonMenu";
 import FotogalleryImages from "../../components/FotogalleryImages";
 import Rateing from "../../components/Rateing";
 import Footer from "../../components/Footer";
 
-
 import data_images from "../../data_images";
 
 const Home = () => {
   return (
     <div id="header-div">
-        {/* <h1>Home</h1> */}
 
         <nav>
             <ul>

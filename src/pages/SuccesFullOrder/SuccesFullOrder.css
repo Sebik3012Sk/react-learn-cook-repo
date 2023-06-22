@@ -1,0 +1,22 @@
+.succes-full-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.succes-full-div .succes-full-text {
+    color: #ffff;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    border-bottom: 1px solid #ffff;
+    padding: 10px;
+}
+
+.succes-full-div .succes-full-icon {
+    color: #ffff;
+    width: 120px;
+    height: 120px;
+}
