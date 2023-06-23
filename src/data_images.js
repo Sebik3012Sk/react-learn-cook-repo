@@ -4,6 +4,7 @@ import image3 from "./images/image3.jpeg";
 import image4 from "./images/image4.jpeg";
 import image5 from "./images/image5.jpeg";
 import image6 from "./images/image6.jpeg";
+import image7 from "./images/image7.jpeg";
 
 // Import accounts - Images
 import account1 from "./images/account1.jpeg";
@@ -65,6 +66,11 @@ const data_images = [
         name : "Anička Kučerová",
         image : account3,
         id : 9
+    },
+
+    {
+        image : image7,
+        id : 10
     }
 ]
 

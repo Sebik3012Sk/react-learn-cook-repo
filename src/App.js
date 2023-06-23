@@ -7,6 +7,7 @@ import Error from "./pages/Error/Error";
 import MoreRateing from "./components/MoreRateing";
 import SuccesFullOrder from "./pages/SuccesFullOrder/SuccesFullOrder";
 import SearchOutput from "./components/SearchOutput";
+import Fotogallery from "./pages/Fotogallery/Fotogallery";
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
         <Route path="/more-rateing" element={ <MoreRateing /> } />
         <Route path="/succes-full-order" element={ <SuccesFullOrder /> } />
         <Route path="/search-output" element={ <SearchOutput /> }/>
-        <Route path="/food-not-found" />
+        <Route path="/fotogallery" element={ <Fotogallery /> } />
         <Route path="*" element={ <Error /> } />
       </Routes>
     </BrowserRouter>

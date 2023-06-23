@@ -1,6 +1,6 @@
 import "./SearchInput.css";
 import { useEffect, useState } from "react";
-import data_images from "../data_images";
+import  data_images from "../data_images";
 import { Link } from "react-router-dom";
 import { projectFirestore } from "../firebase/config";
 
@@ -12,9 +12,14 @@ const SearchInput = () => {
 
 
     useEffect( () => {
-        const filter_data_search = data_images.filter( (search_element) => {
-            return search_element.name.includes(searchValue);
-        } )
+
+        const filter_data_search = data_images.filter((search_item) => {
+            if (search_item.name) {
+              return search_item.name.includes(searchValue);
+            }
+            return false;
+          });
+          
 
         setFilterFood(filter_data_search);
         
@@ -25,7 +30,7 @@ const SearchInput = () => {
 
     const submitForm = async (e) => {
 
-        e.preventDefault();
+        // e.preventDefault();
 
         let data_search_obj = {
             searchValue : searchValue
