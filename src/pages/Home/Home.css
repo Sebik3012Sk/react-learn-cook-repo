@@ -1,41 +1,5 @@
 
 
-nav {
-    width: 80%;
-    height: 85px;
-    background: linear-gradient(rgb(161, 67, 23),rgb(184, 39, 39));
-    border-radius: 19px;
-    border: 0.3px solid #ffff;
-}
-
-
-nav .item-menu {
-    display: inline-block;
-    align-items: center;
-    margin-left: 130px;
-    font-size: 17px;
-    text-decoration: none;
-    color: #ffff;
-    margin-top: 12px;
-    font-weight: 300;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    text-shadow: 10px 10px 10px #000;
-}
-
-
-nav .item-menu:hover,
-nav .item-menu:active {
-    background: rgb(216, 42, 42);
-    padding: 10px;
-    border-radius: 12px;
-    animation-name: goUpMenuItem;
-    animation-duration: 0.25s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    cursor: pointer;
-}
-
 #header-div {
     display: flex;
     flex-direction: column;

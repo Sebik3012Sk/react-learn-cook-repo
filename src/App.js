@@ -8,8 +8,8 @@ import MoreRateing from "./components/MoreRateing";
 import SuccesFullOrder from "./pages/SuccesFullOrder/SuccesFullOrder";
 import SearchOutput from "./components/SearchOutput";
 
-const App = () => {
 
+const App = () => {
 
   return <div id="div-header">
     <BrowserRouter>

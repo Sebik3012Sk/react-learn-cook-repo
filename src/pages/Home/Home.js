@@ -1,6 +1,6 @@
 import "./Home.css";
-import { Link } from "react-router-dom"
 
+import MainMenu from "../../components/MainMenu";
 import ButtonMenu from "../../components/ButtonMenu";
 import FotogalleryImages from "../../components/FotogalleryImages";
 import Rateing from "../../components/Rateing";
@@ -12,16 +12,7 @@ const Home = () => {
   return (
     <div id="header-div">
 
-        <nav>
-            <ul>
-                <Link className="item-menu" to="/Appetizer">Appetizer</Link>
-                <Link className="item-menu" to="/MainFood">Main Food</Link>
-                <Link className="item-menu" to="/Deserts">Deserts</Link>
-                <Link className="item-menu" to="/Snacks">Snacks</Link>
-            </ul>
-
-            
-        </nav>
+        <MainMenu />
 
         <ButtonMenu text="Fotogallery" />
         <ButtonMenu text="All Recipes" />

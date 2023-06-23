@@ -3,6 +3,7 @@ import data_images from "../../data_images";
 import FotogalleryImages from "../../components/FotogalleryImages";
 import FotogalleryButton from "../../components/FotogalleryButton";
 import SearchInput from "../../components/SearchInput";
+import MainMenu from "../../components/MainMenu";
 
 const AllRecipes = () => {
 
@@ -11,8 +12,9 @@ const AllRecipes = () => {
   const height_image = "350px";  
 
   return (
-    <div>
+    <div className="all-recipes-div">
         <h1 className="recipe-header-text">All Recipes</h1>
+        <MainMenu />
         <SearchInput />
 
         <FotogalleryImages Source={data_images[0].image} name={data_images[0].name} width={width_image} height={height_image} />

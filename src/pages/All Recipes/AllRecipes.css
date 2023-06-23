@@ -1,3 +1,10 @@
+.all-recipes-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
 .recipe-header-text {
     text-align: center;
     font-size: 28px;

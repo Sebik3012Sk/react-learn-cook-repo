@@ -2,7 +2,7 @@ import "./SearchInput.css";
 import { useEffect, useState } from "react";
 import data_images from "../data_images";
 import { Link } from "react-router-dom";
-
+import { projectFirestore } from "../firebase/config";
 
 const SearchInput = () => {
 
@@ -23,12 +23,22 @@ const SearchInput = () => {
 
     } , [searchValue])
 
+    const submitForm = async (e) => {
+
+        e.preventDefault();
+
+        let data_search_obj = {
+            searchValue : searchValue
+        }
+
+        projectFirestore.collection("search-data").add(data_search_obj);
+    }
 
     return (
         <div className="search-input-div">
-            <form id="form" action="">
-                <input onChange={ (e) => setSearchValue(e.target.value) } type="search" placeholder="What Do you Find ?" value={searchValue} />
-                <button className="search-button">
+            <form onSubmit={submitForm} id="form" action="">
+                <input onChange={ (e) => setSearchValue(e.target.value)} type="search" placeholder="What Do you Find ?" value={searchValue} />
+                <button type="submit" className="search-button">
                     <Link className="search-link" to="/search-output">{outputText}</Link>
                 </button>
             </form>
