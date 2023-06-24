@@ -8,7 +8,7 @@ import MainMenu from "../../components/MainMenu";
 const AllRecipes = () => {
 
 
-  const width_image = "350px";
+  const width_image = "350px"
   const height_image = "350px";  
 
   return (
@@ -38,4 +38,4 @@ const AllRecipes = () => {
   )
 }
 
-export default AllRecipes
+export default AllRecipes;
