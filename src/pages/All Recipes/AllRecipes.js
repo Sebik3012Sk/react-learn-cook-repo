@@ -4,6 +4,7 @@ import FotogalleryImages from "../../components/FotogalleryImages";
 import FotogalleryButton from "../../components/FotogalleryButton";
 import SearchInput from "../../components/SearchInput";
 import MainMenu from "../../components/MainMenu";
+import { Link } from "react-router-dom";
 
 const AllRecipes = () => {
 
@@ -14,6 +15,9 @@ const AllRecipes = () => {
   return (
     <div className="all-recipes-div">
         <h1 className="recipe-header-text">All Recipes</h1>
+
+        <button className="to-ordered-products" type="button"><Link to="/ordered-products">Ordered Products</Link></button>
+
         <MainMenu />
         <SearchInput />
 

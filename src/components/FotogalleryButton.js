@@ -13,6 +13,7 @@ const FotogalleryButton = () => {
       const date = new Date();
 
       const data_obj_order_product = {
+        name : document.querySelector(".food-name").innerText,
         counter_ks : counter,
         date : date.toLocaleDateString("en-US", { year: 'numeric', month: 'long', day: 'numeric'}),
         action : e.target.innerText
