@@ -7,6 +7,7 @@ import Rateing from "../../components/Rateing";
 import Footer from "../../components/Footer";
 
 import data_images from "../../data_images";
+import References from "../../components/References";
 
 const Home = () => {
   return (
@@ -28,6 +29,8 @@ const Home = () => {
         <FotogalleryImages Source={data_images[3].image} />
         <FotogalleryImages Source={data_images[4].image} />
         <FotogalleryImages Source={data_images[5].image} />
+
+        <References />
 
         <Footer />
         

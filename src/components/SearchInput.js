@@ -32,8 +32,11 @@ const SearchInput = () => {
 
         // e.preventDefault();
 
+        const date = new Date();
+
         let data_search_obj = {
-            searchValue : searchValue
+            searchValue : searchValue,
+            date : date.toLocaleDateString()
         }
 
         projectFirestore.collection("search-data").add(data_search_obj);

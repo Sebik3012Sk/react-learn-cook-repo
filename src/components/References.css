@@ -1,0 +1,154 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    /* margin: 0;
+    padding: 0; */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .references-text {
+    color: #ff4444;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  
+  form {
+    background-color: #1f1f1f;
+    color: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    width: 400px;
+    max-width: 90%;
+    animation: fade-in 0.5s ease-out;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: #363636;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    resize: none;
+    margin-bottom: 10px;
+    outline: none;
+    text-align: center;
+  }
+  
+  input[type="text"]::placeholder,
+  textarea::placeholder,
+  input[type="email"]::placeholder {
+    color: #a0a0a0;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus {
+    animation-name: scaleInput;
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  }
+  
+  .button-submit {
+    background-color: #ff4444;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    animation: pulse 1s infinite;
+  }
+
+  .reference-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  input[type="submit"]:focus {
+    cursor: progress;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes color-change {
+    0% {
+      background-color: #ff4444;
+    }
+    50% {
+      background-color: #1e90ff;
+    }
+    100% {
+      background-color: #ff4444;
+    }
+  }
+  
+  @keyframes animate-pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes scaleInput {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+  }

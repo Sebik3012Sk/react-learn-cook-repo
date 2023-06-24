@@ -4,7 +4,7 @@ import FotogalleryImages from "../../components/FotogalleryImages";
 import FotogalleryButton from "../../components/FotogalleryButton";
 import SearchInput from "../../components/SearchInput";
 import MainMenu from "../../components/MainMenu";
-import { Link } from "react-router-dom";
+import Footer from "../../components/Footer";
 
 const AllRecipes = () => {
 
@@ -16,7 +16,6 @@ const AllRecipes = () => {
     <div className="all-recipes-div">
         <h1 className="recipe-header-text">All Recipes</h1>
 
-        <button className="to-ordered-products" type="button"><Link to="/ordered-products">Ordered Products</Link></button>
 
         <MainMenu />
         <SearchInput />
@@ -38,6 +37,8 @@ const AllRecipes = () => {
 
         <FotogalleryImages Source={data_images[5].image} name={data_images[5].name} width={width_image} height={height_image} />
         <FotogalleryButton />
+
+        <Footer />
     </div>
   )
 }
