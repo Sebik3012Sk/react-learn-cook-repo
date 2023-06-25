@@ -34,5 +34,5 @@ nav .item-menu:hover,
 nav .item-menu:active {
     border-bottom: 1px solid white;
     padding: 10px;
-    transition: 0.5s;
+    transition: 0.25s;
 }

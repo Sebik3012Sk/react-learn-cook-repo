@@ -6,3 +6,10 @@
     font-weight: 300;
     text-decoration: none;
 }
+
+.back-to-home-link:hover,
+.back-to-home-link:active {
+    border-bottom: 1px solid #ffff;
+    padding: 10px;
+    transition: 0.25s;
+}

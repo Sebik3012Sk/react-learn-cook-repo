@@ -10,6 +10,7 @@ import image7 from "./images/image7.jpeg";
 import account1 from "./images/account1.jpeg";
 import account2 from "./images/account2.jpg";
 import account3 from "./images/account3.jpg";
+import account_anonym from "./images/account-anonym.png";
 
 const data_images = [
     {
@@ -71,6 +72,10 @@ const data_images = [
     {
         image : image7,
         id : 10
+    },
+
+    {
+        image : account_anonym
     }
 ]
 

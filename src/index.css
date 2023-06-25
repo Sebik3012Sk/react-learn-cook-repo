@@ -6,6 +6,16 @@
     height: 600px;
 }
 
+::-webkit-scrollbar {
+    background: rgb(182, 57, 7);
+    margin: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(255, 83, 15);
+    border-radius: 5px;
+}
+
 @media (max-width : 500px) {
 
     nav {

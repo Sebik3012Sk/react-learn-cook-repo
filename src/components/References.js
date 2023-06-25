@@ -1,7 +1,7 @@
 import "./References.css";
 import { useState } from "react";
 import { projectFirestore } from "../firebase/config";
-import { Link } from "react-router-dom";
+import AllReferencesButton from "./AllReferencesButton";
 
 const References = () => {
 
@@ -25,6 +25,8 @@ const References = () => {
     }
 
     projectFirestore.collection("form-data").add(result_form_object);
+
+    alert("Succesfully send data to database");
   }
 
   return (
@@ -38,7 +40,8 @@ const References = () => {
                 <input type="text" placeholder="Enter Your lastname" onChange={ (e) => setLastnameValue(e.target.value) }/>
                 <input type="email" placeholder="enter your email" onChange={ (e) => setEmailValue(e.target.value) }/>
                 <textarea cols="30" rows="8" onChange={ (e) => setReferenceValue(e.target.value)}></textarea>
-                <button className="button-submit" type="submit"><Link className="reference-link" to="/reference-succesfull-send">Odeslat Recenzi</Link></button>
+                <button className="button-submit" type="submit">Odeslat Recenzi</button>
+                <AllReferencesButton />
             </form>
         </div>
 

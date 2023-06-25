@@ -8,7 +8,8 @@ import MoreRateing from "./components/MoreRateing";
 import SuccesFullOrder from "./pages/SuccesFullOrder/SuccesFullOrder";
 import SearchOutput from "./components/SearchOutput";
 import Fotogallery from "./pages/Fotogallery/Fotogallery";
-import SuccesFullReference from "./pages/SuccesFullReference/SuccesFullReference";
+import AllReferences from "./components/AllReferences";
+
 
 const App = () => {
 
@@ -23,7 +24,7 @@ const App = () => {
         <Route path="/succes-full-order" element={ <SuccesFullOrder /> } />
         <Route path="/search-output" element={ <SearchOutput /> }/>
         <Route path="/fotogallery" element={ <Fotogallery /> } />
-        <Route path="/reference-succesfull-send" element={ <SuccesFullReference /> }/>
+        <Route path="/all-references" element={ <AllReferences />}/>
         <Route path="*" element={ <Error /> } />
       </Routes>
     </BrowserRouter>
